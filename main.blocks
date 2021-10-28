@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="zzo4jYT6w2f=MNK,l^F-" x="296" y="-18"><comment>The micro:bit person will do a short dance on the LED grid 8 times and end on the first dance move.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="6%+gjT(u4VwW-g*-d?*l"><comment>repeat these dance moves 8 times</comment><value name="TIMES"><shadow type="math_number" id=";Ac1y{;s-lR7Ai=+:H]s"><field name="NUM">8</field></shadow></value><statement name="DO"><block type="device_show_leds" id="T}s^%h00l=Xnc,;tjbYv"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><comment>first dance move</comment><next><block type="device_show_leds" id="~F/t5p,BBLnV=IJxw`Ei"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><comment>second dance move</comment></block></next></block></statement></block></statement></block></xml>
